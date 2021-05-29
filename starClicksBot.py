@@ -9,8 +9,8 @@ browser  = webdriver.Chrome(ChromeDriverManager().install())
 browser.get('https://www.star-clicks.com/portal/ads')
 
 
-accountEmail = "whitehhacker7@gmail.com"
-accountPass = "zxzxcvcv123"
+accountEmail = input("Enter user email")
+accountPass = input("Enter the Password")
 
 time.sleep(2)
 
